@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 5px;
+    display: flex;
+}
+
+
+#pai{
+    width: 1000px;
+    height: 700px;
+   
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    border: solid 3px;
+    border-color: black;
+}
+.filho{
+    width: 250px;
+    height: 100px;
+    border: solid 2px;
+    border-color: black;
+}
+.neto{
+    width: 250px;
+    height: 100px;
+    border: solid 2px;
+    border-color: black;
+}
+
+/* Esta parte se refere as div "filho" que se encontram  a direita do pai */
+
+#imag{
+    width: 260px;
+    height: 700px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px;
+    border-color: black;
+}
+
+/* esta parte é referente ao quadrado maior e o retangulo entre as div de class "filho" que se encontram a
+esquerda do pai */
+
+#imagi{
+    width: 700px;
+    height:700px;
+    flex-direction: column;
+    align-self: flex-start;
+    border: solid 1px;
+    border-color: black;
+}
+
+#especial{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+#esp1{
+    width: 290px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#esp2{
+    width: 290px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#fe{
+    margin-top: 20px;
+}
+#b{
+    margin-top: 130px;
+}
+#d{
+    margin-top: 130px;
+}
